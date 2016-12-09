@@ -1,0 +1,69 @@
+html {
+    font-size: 2.5vh; }
+
+body {
+    background: linear-gradient(darkred, black) no-repeat top;
+    background-size: cover;
+    min-height: 100%; }
+
+#review {
+    padding: 2.5%;
+    padding-top: 1%;
+    background: white;
+    border: solid 3px black;
+    margin: 5% 5% 5% 5%;
+    max-width: 100%; }
+
+header {
+    font-family: "Trebuchet MS",Arial,sans-serif; }
+
+h1 {
+    font-size: 2rem; }
+h1 #subtitle {
+    color: red; }
+
+h2 {
+    font-size: 1.5rem; }
+
+#date {
+    font-size: .9rem;
+    font-weight: bold;
+    color: grey; }
+
+#main-article {
+    font-family: Georgia,"Times New Roman",serif;
+    text-align: justify;
+    font-size: 1rem; }
+#main-article :first-child::first-letter {
+    border: solid 2px darkred;
+    background-size: cover;
+    float: left;
+    padding: 3%;
+    margin-right: .5rem;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: white;
+    background-image: url(../photos/tree-of-death.jpg); }
+#main-article :first-child::first-line {
+    font-variant: small-caps; }
+
+#footnote {
+    font-size: .75rem; }
+
+#comparison {
+    float: right;
+    width: 60%; }
+
+#xerxes {
+    float: left;
+    width: 60%;
+    margin-right: .5rem; }
+
+#cliff {
+    margin-top: 20px;
+    width: 100%;
+    border: solid 1px darkred; }
+
+@media print {
+    #review {
+        border: none; } }
